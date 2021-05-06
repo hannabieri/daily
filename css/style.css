@@ -113,7 +113,7 @@ a:hover {
 .fullwidth-img-text img {
     max-width: 100%;
     height: auto;
-    border-radius: 1%;
+    /* border-radius: 1%; */
 }
 
 .fullwidth-img-text img:hover {
