@@ -76,6 +76,24 @@ footer {
     margin-bottom: 5%;
 }
 
+#back-to-top {
+    scroll-behavior: smooth;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    /* hide with opacity */
+    /* opacity: 0; */
+    /* also add a translate effect */
+    /* transform: translateY(100px); */
+    /* and a transition */
+    transition: all .5s ease;
+}
+
+/* .showBtn {
+    opacity: 1;
+    transform: translateY(0);
+} */
+
 .social-media a, .contact-info a {
     margin-right: 1%;
     margin-top: 2%;
@@ -128,7 +146,7 @@ footer {
 }
 
 .fullwidth-img-text img:hover {
-    transform: scale(1.025);
+    transform: scale(1.015);
     transition: 0.5s ease-in-out;
 }
 

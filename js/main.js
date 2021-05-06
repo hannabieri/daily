@@ -1,4 +1,4 @@
-/* mouse cursor */
+// mouse cursor
 
 jQuery(document).ready(function () {
 
@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
 });
 
 
-/* background dots */
+// background dots
 
 $(document).ready(function () {
 
@@ -35,15 +35,33 @@ $(document).ready(function () {
         document.body.appendChild(this.obj);
     }
     var dot = [];
-    /*this is the frequency 50 */
+    //this is the frequency 50 
     for (var i = 0; i < 20; i++) {
         dot.push(new freshDot());
     }
-    /*
-    $(window).resize(function(){
-      for(i=0;i<200;i++){
-        document.body.removeChild(dot[i]);
-      }
-    });
-    */
+
+    // $(window).resize(function(){
+    //   for(i=0;i<200;i++){
+    //     document.body.removeChild(dot[i]);
+    //   }
+    // });
 });
+
+
+/* back to top link */
+
+// var rootElement = document.documentElement
+
+// function handleScroll() {
+//     // Do something on scroll
+//     var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+//     if ((rootElement.scrollTop / scrollTotal) > 0.80) {
+//         // Show button
+//         scrollToTopBtn.classList.add("showBtn")
+//     } else {
+//         // Hide button
+//         scrollToTopBtn.classList.remove("showBtn")
+//     }
+// }
+
+//document.addEventListener("scroll", handleScroll);
