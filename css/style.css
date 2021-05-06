@@ -70,6 +70,17 @@ a:hover {
     margin-top: 2%;
 }
 
+footer {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.social-media a, .contact-info a {
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
 .main-title {
     width: 80%;
     padding-left: 10%;
@@ -129,5 +140,10 @@ a:hover {
     .main-title h1 {
         font-size: 100px;
         line-height: 1em;
+    }
+    .fullwidth-img-text h3 {
+        font-size: 13px;
+        line-height: 16px;
+        padding-top: 1%;
     }
 }
